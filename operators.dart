@@ -6,6 +6,7 @@ void main() {
   bool flag = true;
   String text = "Hello";
 
+
   // Arithmetic Operators
   print("Arithmetic Operators:");
   print(a + b);   // Addition
@@ -14,6 +15,8 @@ void main() {
   print(a / b);   // Division (double)
   print(a ~/ b);  // Integer division
   print(a % b);   // Modulus
+
+
 
   // Assignment Operators
   int x = 5;
@@ -28,6 +31,8 @@ void main() {
   x %= 3;
   print("x %= 3 → $x");
 
+
+
   // Comparison Operators
   print(a == b);  // Equal
   print(a != b);  // Not equal
@@ -36,16 +41,20 @@ void main() {
   print(a >= b);  // Greater or equal
   print(a <= b);  // Less or equal
 
+
+
   // Logical Operators
   bool y = false;
   print(flag && y);  // AND
   print(flag || y);  // OR
   print(!flag);      // NOT
 
+
   // Type Test Operators
   print(a is int);     // true
   print(text is String); 
   print(c is! int);    // true
+
 
   // Expressions
   int result = a + b * 2;
